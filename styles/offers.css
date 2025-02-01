@@ -316,3 +316,41 @@ margin-bottom: 10px;
 .subscribe-container input[type="submit"]:hover {
     background-color: crimson;
 }
+
+/* footer style */
+.footer{
+    background-color: #070211;
+    color: white;
+    width: 100%;
+}
+
+.add-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+}
+.right-unsub{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ .line{
+    width: 1300px;
+    opacity: 0.2; /* Adjust transparency (0 = fully transparent, 1 = fully visible) */
+
+ }
+
+ .copy{
+    color: #FF0000;
+ }
