@@ -223,3 +223,35 @@ color: #070211;
 
  }
 
+ /* gift section */
+
+ .gift{
+    width: 1300px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+ }
+ .gift-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    gap: 10px; /* Space between images */
+    justify-content: center;
+
+}
+
+.gift-item {
+    width: 100%; /* Ensures all images fill their grid cells */
+    max-width: 420px; /* Adjust image width as needed */
+    border-radius: 10px; 
+}
+ .gift-title{
+    font-size: 34px;
+    color: #FF0000;
+    margin-bottom: 10px;
+ }
+ .gift-subtitle{
+font-size: 48px;
+color: #070211;
+margin-top: 0px;
+margin-bottom: 10px;
+ }
