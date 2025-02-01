@@ -55,3 +55,35 @@ position: relative;
 
 
 }
+
+/* 65% off */
+
+.off{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    height: 802px; /* Fixed height */
+    width: 806px; /* Fixed width */
+    margin: 0 auto; /* Center the container horizontally */
+    box-sizing: border-box; /* Ensure padding and borders are included in height and width */
+
+}
+
+.off-title{
+color:#FF0000;
+font-size: 88px;
+font-weight: bold;
+margin-bottom: 0px;
+
+}
+.off-des{
+color:#FF0000;
+font-size: 24px;
+}
+.off-subtitle{
+    color: #070211;
+font-size: 48px;
+font-weight: bold;
+}
